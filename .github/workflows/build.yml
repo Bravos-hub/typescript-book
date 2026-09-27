@@ -22,6 +22,13 @@ jobs:
       - run: sudo apt install libegl1 libopengl0 libxcb-cursor-dev
       - run: sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
       - run: sudo npm install -g gitbook-cli
+      - name: Preinstall GitBook plugins
+        run: |
+          npm install --no-save \
+            gitbook-plugin-edit-link@2.0.2 \
+            gitbook-plugin-github@2.0.0 \
+            gitbook-plugin-adsense@1.0.3 \
+            gitbook-plugin-header@0.1.0
       - run: gitbook install
       - run: mkdir output
       - run: gitbook pdf . ./output/typescript-book-${SHA}.pdf
