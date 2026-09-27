@@ -58,7 +58,7 @@ Book is completely free so you can copy paste whatever you want without requirin
 You can also download one of the Epub, Mobi, or PDF formats from the [actions tab](https://github.com/basarat/typescript-book/actions) by clicking on the latest build run. You will find the files in the artifacts section.
 
 ## Special Thanks
-All the amazing [contributors](https://github.com/basarat/typescript-book/graphs/contributors) 🌹
+All the amazing [contributors](https://github.com/basarat/typescript-book/graphs/contributors)
 
 ## Share
 Share URL: https://basarat.gitbook.io/typescript/
